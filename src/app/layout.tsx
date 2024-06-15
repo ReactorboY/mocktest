@@ -1,6 +1,5 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { ThemeProvider } from './theme-provider'
 
 import Head from 'next/head'
 
@@ -28,11 +27,10 @@ export default function RootLayout({
           href="https://mockyard.com/"
         />     
       </Head>
-      <body className={ `${inter.className} bg-gray-200	min-h-screen dark:bg-[#0d1117] `}
+      <body className={ `${inter.className}	min-h-screen`}
       >
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>          
           <main className='main'>{children}</main>
-        </ThemeProvider>          
+        
       </body>
     </html>
   )
