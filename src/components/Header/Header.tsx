@@ -10,7 +10,7 @@ function Header() {
     <>
       <header className='px-24'>
         <Nav />
-        {/* <Featured /> */}
+        <Featured />
       </header>
     </>
   )
