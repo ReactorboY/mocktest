@@ -34,7 +34,7 @@ const CountDown: React.FC<Props> = ({ endDate }) => {
   return (
     <section className="flex justify-center items-center">
       <div className="text-center">
-        <h1 className="text-4xl font-extrabold m-2 text-sky-600 dark:text-sky-200 mb-4">{title}</h1>
+        <h2 className="text-4xl font-extrabold m-2 text-sky-600 dark:text-sky-200 mb-4">{title}</h2>
         <div className="text-center font-heading m-5 text-5xl sm:text-4xl lg:text-7xl leading-[5rem] sm:leading-[7rem] lg:leading-[7rem] font-black ">
             <span className='bg-clip-text flex-row text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>
                 <span>{countdown.days} Days </span> 
