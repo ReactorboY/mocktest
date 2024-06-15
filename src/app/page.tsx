@@ -6,13 +6,7 @@ export default function Home() {
   return (    
     
       <>       
-      <Head>
-      <link
-          rel="canonical"
-          href="https://mockyard.com/"
-          key="canonical"
-        />     
-    </Head>
+      
         {/* Standard Version */}
         <ComingSoonVersion />
       </>

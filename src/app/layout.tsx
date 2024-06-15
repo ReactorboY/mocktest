@@ -23,7 +23,10 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <link rel="icon" href="/favicon.ico" />   
-        
+        <link
+          rel="canonical"
+          href="https://mockyard.com/"
+        />     
       </Head>
       <body className={ `${inter.className} bg-gray-200	min-h-screen dark:bg-[#0d1117] `}
       >
