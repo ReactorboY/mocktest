@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <nav className='flex h-20 py-3 justify-between items-center'>
       <Link href='/'>
-        <h1 className='text-2xl font-bold'>MockYard</h1>
+        <h1 className='text-2xl font-extrabold text-sky-500'>MockYard</h1>
       </Link>
       <div className='flex justify-center items-center gap-4'>
         <div className='relative flex items-center'>
@@ -16,7 +16,7 @@ const Nav = () => {
           />
         </div>
 
-        <button className='bg-green-500 px-4 py-2 text-slate-50 rounded-lg'>Login</button>
+        <button className='bg-sky-500 px-4 py-2 text-slate-50 rounded-lg'>Login</button>
       </div>
     </nav>
   )
