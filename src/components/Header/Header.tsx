@@ -8,7 +8,7 @@ function Header() {
   const { sitename, sitetagline, siteurl } = data
   return (
     <>
-      <header className='px-24'>
+      <header className='px-48'>
         <Nav />
         <Featured />
       </header>
