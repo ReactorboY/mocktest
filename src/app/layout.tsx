@@ -10,7 +10,7 @@ const inter = Inter({
 
 export const metadata = {
   title: 'MockYard: Where Champions are Tested',
-  description: `Transform your exam preparation into domination! Mockyard puts you through the test, reveals your strengths & weaknesses, and empowers you to strategize with detailed result analysis. `
+  description: `Knowledge is nothing without Application! Mockyard puts you through the test, reveals your strengths & weaknesses, and empowers you to strategize with detailed result analysis.`
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
