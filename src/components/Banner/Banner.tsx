@@ -10,7 +10,7 @@ const Banner = () => {
           <Image src='/study.svg' width={400} height={300} alt='study' />
           <div className='flex  flex-col  h-[60%]'>
             <p className='mt-6 text-gray-500'>
-              Don&apost just memorize, master your exams. Mockyard puts your knowledge to the test
+              Don&apos;t just memorize, master your exams. Mockyard puts your knowledge to the test
               with a massive library, personalized insights, and expert-crafted materials. Transform
               learning into exam victory. Start practicing today!
             </p>
