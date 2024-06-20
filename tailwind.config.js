@@ -9,7 +9,15 @@ module.exports = {
     './src/app/**.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
+<<<<<<< HEAD
     extend: {},
+=======
+    extend: {
+      colors: {
+        primary: '#ff725e'
+      }
+    },
+>>>>>>> 990559e569dc0fad9f9990272102eb6e100d5dc4
     container: {
       padding: {
         DEFAULT: '1rem',
