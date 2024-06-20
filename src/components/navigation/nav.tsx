@@ -16,7 +16,9 @@ const Nav = () => {
           />
         </div>
 
-        <button className='bg-slate-950 px-4 py-2 text-white rounded-lg'>Login</button>
+        <Link href='/signin' className='bg-slate-950 px-4 py-2 text-white rounded-lg'>
+          Login
+        </Link>
       </div>
     </nav>
   )
