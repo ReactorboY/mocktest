@@ -1,5 +1,7 @@
+import { signIn } from '@/auth'
 import Link from 'next/link'
 import React from 'react'
+import ButtonSignIn from '../Header/buttonSignIn'
 
 const Nav = () => {
   return (
@@ -16,9 +18,7 @@ const Nav = () => {
           />
         </div>
 
-        <Link href='/signin' className='bg-slate-950 px-4 py-2 text-white rounded-lg'>
-          Login
-        </Link>
+        <ButtonSignIn />
       </div>
     </nav>
   )

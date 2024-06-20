@@ -1,9 +1,14 @@
 import { auth } from '@/auth'
 
 export default auth((req) => {
-  if (!req.auth && req.nextUrl.pathname !== '/signin') {
-    const newUrl = new URL('/', req.nextUrl.origin)
-    return Response.redirect(newUrl)
+  console.log(req.auth)
+
+  if (req.auth?.user && req.nextUrl.pathname === '/') {
+    return Response.redirect(new URL('/dashboard', req.url))
+  }
+
+  if (!req.auth) {
+    return Response.redirect(new URL('/', req.url))
   }
 })
 
