@@ -18,11 +18,7 @@ const sidebarItems = [
     link: '/dashboard/ebooks',
     icon: <Frame />
   },
-  {
-    name: 'Exams',
-    link: '/dashboard/exams',
-    icon: <BookCheck />
-  },
+
   {
     name: 'Exam Tracker',
     link: '/dashboard/examtracker',
