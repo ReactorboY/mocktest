@@ -13,7 +13,7 @@ const Banner = () => {
               with a massive library, personalized insights, and expert-crafted materials. Transform
               learning into exam victory. Start practicing today!
             </p>
-            <button className='text-white mt-4 py-4 px-3 rounded-lg bg-slate-700 w-[200px]'>
+            <button className='text-white mt-10 py-4 px-3 rounded-lg bg-slate-700 w-[200px]'>
               Take a Free Mock
             </button>
           </div>

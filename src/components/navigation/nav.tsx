@@ -1,7 +1,6 @@
-import { signIn } from '@/auth'
 import Link from 'next/link'
 import React from 'react'
-import ButtonSignIn from '../Header/buttonSignIn'
+import ButtonSignIn from '../Header/ButtonSignIn'
 
 const Nav = () => {
   return (
