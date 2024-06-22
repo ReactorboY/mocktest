@@ -4,7 +4,7 @@ import Google from 'next-auth/providers/google'
 export const { handlers, signIn, signOut, auth } = NextAuth({
   providers: [Google],
   callbacks: {
-    jwt({ token, user }) {
+    jwt({ token, user, account }) {
       if (user) {
         // User is available during sign-in
         token.id = user.id
@@ -12,7 +12,8 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         token.name = user.name
         token.exp = 24
       }
-      return token
+
+      return { ...token }
     },
     session({ session, token }) {
       if (token) {

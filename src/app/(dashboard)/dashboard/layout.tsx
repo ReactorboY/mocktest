@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <aside className='h-screen min-h-screen min-w-[200px]'>
             <Sidebar />
           </aside>
-          <main className=''>{children}</main>
+          {children}
         </section>
       </body>
     </html>

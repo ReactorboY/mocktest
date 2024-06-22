@@ -6,7 +6,7 @@ declare module 'next-auth' {
       _id?: string
       name?: string
       email?: string
-      session_expiry: string
+      accessToken?: string
     } & DefaultSession['user']
   }
 
@@ -14,6 +14,8 @@ declare module 'next-auth' {
     _id?: string
     name?: string
     email?: string
+    token?: string
+    accessToken?: string
   }
 }
 
@@ -22,5 +24,6 @@ declare module 'next-auth/jwt' {
     _id?: string
     name?: string
     email?: string
+    accessToken?: string
   }
 }
