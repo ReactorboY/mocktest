@@ -1,3 +1,14 @@
+import Link from 'next/link'
+import React from 'react'
+
 export default function Page({ params }: { params: { slug: string } }) {
-  return <div>Exam TYpe: {params.slug}</div>
+  return (
+    <>
+      <p>
+        <Link href={'/mocktest'} target='_blank'>
+          Start Test
+        </Link>
+      </p>
+    </>
+  )
 }

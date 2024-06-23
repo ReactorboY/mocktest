@@ -8,7 +8,9 @@ async function getData() {
   try {
     const sesssion = await auth()
 
-    const res = await fetch('http://localhost:8001/api/v1/exams/')
+    const res = await fetch('http://localhost:8001/api/v1/exams/', {
+      cache: 'no-store'
+    })
     if (!res.ok) {
       // This will activate the closest `error.js` Error Boundary
       error('Failed to fetch data')
@@ -33,7 +35,7 @@ export default async function Page() {
         {data &&
           data.map((exam: any) => (
             <Link
-              href={'/dashboard/tests/' + exam.name.toLowerCase()}
+              href={'/dashboard/tests/' + encodeURIComponent(exam.slug)}
               key={exam.id}
               className='min-w-[150px] border min-h-[50px] py-5  px-3 rounded-md flex justify-center items-center flex-col'>
               <Image src={'/sslogo.png'} width={40} height={40} alt='' />
