@@ -11,6 +11,10 @@ const data = {
     {
       icon: 'YT',
       link: 'https://www.youtube.com/channel/UCtFPXXS78ay4lzFBj2czXxQ'
+    },
+    {
+      icon: 'Telegram',
+      link: 'https://t.me/mockyard'
     }
   ]
 }
