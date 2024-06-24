@@ -24,10 +24,10 @@ const LandingPage = () => {
           </h2>
           <div className='w-[700px] mt-5'>
             <p className='text-gray-500'>
-              The Mockyard isn't just a practice ground - it's your arena for exam mastery! We
-              provide you with the most realistic mock tests, strategically designed to mirror the
-              actual Central Government exams. Sharpen your skills, identify your strengths and
-              weaknesses, and build the confidence you need to ace your exam day.
+              The Mockyard isn&apos;t just a practice ground - it&apos;s your arena for exam
+              mastery! We provide you with the most realistic mock tests, strategically designed to
+              mirror the actual Central Government exams. Sharpen your skills, identify your
+              strengths and weaknesses, and build the confidence you need to ace your exam day.
             </p>
           </div>
           <div className='mt-10'>
