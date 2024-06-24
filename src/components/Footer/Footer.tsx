@@ -26,7 +26,7 @@ function Footer() {
     <>
       <footer className='text-slate-500 text-center mt-16 mb-10'>
         <div className='my-4 text-center'>
-          <ul className='flex flex-wrap lg:flex justify-center '>
+          <ul className='flex flex-wrap lg:flex justify-center  '>
             <li className='px-2'> {socialIconsHeading} </li>
             {socialIcons.map((social, index) => (
               <li key={index} className='px-2 capitalize border-1  hover:border-b-white'>

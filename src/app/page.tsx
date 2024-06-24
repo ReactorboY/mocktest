@@ -1,6 +1,7 @@
 import { auth } from '@/auth'
 import Footer from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
+import LandingPage from '@/components/Landing/LandingPage'
 import { redirect } from 'next/navigation'
 
 export default async function Home() {
@@ -13,11 +14,7 @@ export default async function Home() {
 
   return (
     <>
-      {/* Standard Version */}
-      <Header />
-
-      <Footer />
-      {/* <ComingSoonVersion /> */}
+      <LandingPage />
     </>
   )
 }

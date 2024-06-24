@@ -16,10 +16,6 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en'>
-      <Head>
-        <link rel='icon' href='/favicon.ico' />
-        <link rel='canonical' href='https://mockyard.com/' />
-      </Head>
       <body className={`${inter.className}`}>{children}</body>
     </html>
   )
