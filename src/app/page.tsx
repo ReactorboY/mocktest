@@ -1,5 +1,4 @@
 import { auth } from '@/auth'
-import CountDown from '@/components/CountDown/Countdown'
 import Footer from '@/components/Footer/Footer'
 import Header from '@/components/Header/Header'
 import { redirect } from 'next/navigation'
@@ -16,7 +15,7 @@ export default async function Home() {
     <>
       {/* Standard Version */}
       <Header />
-      <CountDown endDate={specificEndDate} />
+
       <Footer />
       {/* <ComingSoonVersion /> */}
     </>

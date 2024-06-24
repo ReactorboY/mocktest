@@ -1,5 +1,19 @@
 import React from 'react'
-import data from '../../../data/data'
+const currentYear = new Date().getFullYear()
+const data = {
+  copyrightText: `Copyright © ${currentYear} | Design and Developed By &nbsp;RB`,
+  socialIconsHeading: 'Follow Us 📣',
+  socialIcons: [
+    {
+      icon: 'twitter',
+      link: 'https://x.com/mockyardx'
+    },
+    {
+      icon: 'YT',
+      link: 'https://www.youtube.com/channel/UCtFPXXS78ay4lzFBj2czXxQ'
+    }
+  ]
+}
 
 function Footer() {
   const { copyrightText, socialIcons, socialIconsHeading } = data
