@@ -6,8 +6,6 @@ import Link from 'next/link'
 
 async function getData() {
   try {
-    const sesssion = await auth()
-
     const res = await fetch('http://localhost:8001/api/v1/exams/', {
       cache: 'no-store'
     })
@@ -26,7 +24,6 @@ async function getData() {
 
 export default async function Page() {
   const data = await getData()
-  data.map((data: any) => console.log(data))
 
   return (
     <main className='w-full block p-5'>
