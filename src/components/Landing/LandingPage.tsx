@@ -11,7 +11,11 @@ const LandingPage = () => {
   const handleSubmit = async () => {
     console.log('Call send API here')
 
-    await sendVerificationEmail('JACK', 'mockyardhelp@gmail.com', '123456789')
+    const res = await fetch('/api/', {
+      method: 'POST',
+      body: JSON.stringify({ email })
+    })
+    console.log(res)
   }
   return (
     <main className='min-h-screen min-w-screen flex flex-col px-4'>
