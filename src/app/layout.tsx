@@ -10,7 +10,11 @@ const inter = Inter({
 
 export const metadata = {
   title: 'MockYard: Where Champions are Tested',
-  description: `Knowledge is nothing without Application! Mockyard puts you through the test, reveals your strengths & weaknesses, and empowers you to strategize with detailed result analysis.`
+  description: `Knowledge isn't enough! Mockyard puts you through the test, reveals your strengths & weaknesses, and empowers you to strategize with detailed analysis.`,
+  openGraph: {
+    siteName: 'Mockyard',
+    url: 'https://www.mockyard.com'
+  }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

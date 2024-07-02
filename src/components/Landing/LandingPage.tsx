@@ -22,7 +22,7 @@ const LandingPage = () => {
       <Nav />
       <div className='flex justify-start items-center flex-col grow'>
         <div className='flex flex-col gap-3'>
-          <h1 className='mt-40 text-5xl font-bold uppercase'>Enter the Mockyard:</h1>
+          <h2 className='mt-40 text-5xl font-bold uppercase'>Enter the Mockyard:</h2>
           <h2 className='text-3xl font-semibold'>
             Battle-Test Your Skills & Conquer Your Govt. Exam
           </h2>
